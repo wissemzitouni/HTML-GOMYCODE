@@ -1,86 +1,94 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon premier site HTML</title>
-    <link rel="stylesheet" href="./Styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Docplanner Website</title>
   </head>
+
   <body>
-    <header>
-      <h1>Mon premier site HTML</h1>
+    <div class="header">
       <nav>
         <ul>
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#projets">Projets</a></li>
-          <li><a href="#apropos">À propos</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>Accueil</li>
+          <li>À propos</li>
+          <li>Nos services</li>
+          <li>Contact</li>
         </ul>
       </nav>
-    </header>
+      <h1>Docplanner</h1>
+      <p>Votre santé est notre priorité</p>
+      <button>Prendre un rendez-vous</button>
+    </div>
 
-    <section id="accueil">
-      <h2>Accueil</h2>
+    <div class="hero-section">
+      <h2>Bienvenue chez Docplanner</h2>
+      <p>La plateforme qui facilite l'accès aux soins médicaux.</p>
+      <img src="image acceuil.jpg" alt="Image d'accueil" />
+    </div>
+
+    <div class="features-section">
+      <div class="feature">
+        <h3>Prise de rendez-vous en ligne</h3>
+        <p>Planifiez vos consultations médicales en quelques clics.</p>
+      </div>
+      <div class="feature">
+        <h3>Large choix de spécialités</h3>
+        <p>Trouvez le professionnel de santé adapté à vos besoins.</p>
+      </div>
+      <div class="feature">
+        <h3>Avis et évaluations</h3>
+        <p>
+          Consultez les avis des patients pour prendre une décision éclairée.
+        </p>
+      </div>
+    </div>
+
+    <div class="appointment-section">
+      <h2>Prenez un rendez-vous dès aujourd'hui</h2>
       <p>
-        Bienvenue sur mon portfolio. Je suis un développeur passionné par la
-        création de sites web.
+        Remplissez le formulaire ci-dessous pour réserver votre consultation.
       </p>
-      <img src="image html.png" alt="Image d'accueil" />
-    </section>
-
-    <section id="projets">
-      <h2>Projets</h2>
-      <ul>
-        <li>
-          <h3>Projet 1</h3>
-          <p>
-            Ce projet est une application web que j'ai développée pour gérer des
-            tâches.
-          </p>
-          <a href="projet1.html">Voir plus</a>
-        </li>
-        <li>
-          <h3>Projet 2</h3>
-          <p>
-            Ce projet est un site e-commerce que j'ai créé pour vendre des
-            produits artisanaux.
-          </p>
-          <a href="projet2.html">Voir plus</a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="apropos">
-      <h2>À propos</h2>
-      <p>
-        Je suis un développeur web avec plus de 5 ans d'expérience. J'ai une
-        passion pour la création de sites web interactifs et conviviaux.
-      </p>
-      <table>
-        <tr>
-          <th>Nom</th>
-          <th>Âge</th>
-          <th>Expérience</th>
-        </tr>
-        <tr>
-          <td>John Doe</td>
-          <td>30</td>
-          <td>5 ans</td>
-        </tr>
-      </table>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
       <form>
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" required /><br />
-
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required /><br />
-
-        <
+        <!-- Form fields here -->
       </form>
-    </section>
+    </div>
+
+    <div class="countries-section">
+      <h2>Nos partenaires internationaux</h2>
+      <ul>
+        <li>France</li>
+        <li>Allemagne</li>
+        <li>Italie</li>
+        <li>Espagne</li>
+        <li>Brésil</li>
+        <li>Mexique</li>
+      </ul>
+    </div>
+
+    <div class="testimonial-section">
+      <h2>Témoignages de nos patients</h2>
+      <div class="testimonial">
+        <img src="patient 1.jpg" alt="Témoignage 1" />
+        <p>
+          "J'ai été très satisfait de mon expérience avec Docplanner. Les
+          médecins sont compétents et l'organisation est excellente."
+        </p>
+        <h4>John Doe</h4>
+      </div>
+      <div class="testimonial">
+        <img src="patient 2.jpg" alt="Témoignage 2" />
+        <p>
+          "Je recommande vivement Docplanner à tous ceux qui cherchent un moyen
+          simple et pratique de trouver des soins médicaux."
+        </p>
+        <h4>Jane Smith</h4>
+      </div>
+    </div>
+
+    <div class="contact-section">
+      <h2>Contactez-nous</h2>
+    </div>
   </body>
 </html>

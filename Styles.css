@@ -1,21 +1,177 @@
-.navbar {
-  display: inline;
-}
+/* styles.css */
+
+/* Global styles */
+
 body {
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
-.title {
-  color: blue;
+
+/* Header styles */
+
+.header {
+  background-color: #154360;
+  color: #fff;
+  padding: 20px;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+.header button {
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hero section styles */
+
+.hero-section {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero-section h2 {
+  font-size: 40px;
+}
+
+.hero-section p {
+  font-size: 18px;
+}
+
+.hero-section img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Features section styles */
+
+.features-section {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.features-section .feature {
+  margin-bottom: 30px;
+}
+
+.features-section h3 {
   font-size: 24px;
 }
-.paragraphe {
-  color: red;
+
+.features-section p {
+  font-size: 16px;
 }
 
-.conteneur {
-  background-color: gray;
+/* Appointment section styles */
+
+.appointment-section {
+  background-color: #154360;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
 }
 
-.texte {
-  font-weight: bold;
+.appointment-section h2 {
+  font-size: 40px;
+}
+
+.appointment-section p {
+  font-size: 18px;
+}
+
+.appointment-section form {
+  /* Form styles here */
+}
+
+/* Countries section styles */
+
+.countries-section {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.countries-section h2 {
+  font-size: 30px;
+}
+
+.countries-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.countries-section ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Testimonial section styles */
+
+.testimonial-section {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  font-size: 30px;
+}
+
+.testimonial-section .testimonial {
+  margin-bottom: 30px;
+}
+
+.testimonial-section img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial-section h4 {
+  font-size: 18px;
+}
+
+/* Contact section styles */
+
+.contact-section {
+  background-color: #154360;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 40px;
 }
